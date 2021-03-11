@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B425C2A525FA961400E78265 /* employeeHourly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B425C2A425FA961400E78265 /* employeeHourly.swift */; };
+		B425C2AE25FAA09B00E78265 /* school.swift in Sources */ = {isa = PBXBuildFile; fileRef = B425C2AD25FAA09B00E78265 /* school.swift */; };
+		B425C2B225FAA51E00E78265 /* schoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B425C2B125FAA51E00E78265 /* schoolController.swift */; };
 		B45380D325F9602E004AC4CF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45380D225F9602E004AC4CF /* main.swift */; };
+		B45380E125F96607004AC4CF /* employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45380E025F96607004AC4CF /* employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B425C2A425FA961400E78265 /* employeeHourly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employeeHourly.swift; sourceTree = "<group>"; };
+		B425C2AD25FAA09B00E78265 /* school.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = school.swift; sourceTree = "<group>"; };
+		B425C2B125FAA51E00E78265 /* schoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolController.swift; sourceTree = "<group>"; };
 		B45380CF25F9602E004AC4CF /* challenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = challenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45380D225F9602E004AC4CF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B45380E025F96607004AC4CF /* employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B425C2B025FAA50C00E78265 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B425C2B125FAA51E00E78265 /* schoolController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
 		B45380C625F9602E004AC4CF = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +73,21 @@
 		B45380D125F9602E004AC4CF /* challenge */ = {
 			isa = PBXGroup;
 			children = (
+				B425C2B025FAA50C00E78265 /* controllers */,
+				B45380DD25F9658A004AC4CF /* models */,
 				B45380D225F9602E004AC4CF /* main.swift */,
 			);
 			path = challenge;
+			sourceTree = "<group>";
+		};
+		B45380DD25F9658A004AC4CF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B45380E025F96607004AC4CF /* employee.swift */,
+				B425C2A425FA961400E78265 /* employeeHourly.swift */,
+				B425C2AD25FAA09B00E78265 /* school.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B425C2B225FAA51E00E78265 /* schoolController.swift in Sources */,
 				B45380D325F9602E004AC4CF /* main.swift in Sources */,
+				B425C2A525FA961400E78265 /* employeeHourly.swift in Sources */,
+				B45380E125F96607004AC4CF /* employee.swift in Sources */,
+				B425C2AE25FAA09B00E78265 /* school.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
